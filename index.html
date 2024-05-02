@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Partner Preferences</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Genshin.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .banner {
+    width: 45%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #000;
+    text-align: center; 
+  }
+
+  .turn-ons {
+    background-color: #006400; 
+  }
+
+  .turn-offs {
+    background-color: #8B0000; 
+  }
+
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 0; 
+  }
+
+  .description {
+    font-style: italic;
+    margin-bottom: 15px;
+  }
+
+  .list-item {
+    font-weight: bold;
+  }
+
+  .list {
+    padding-left: 20px;
+    text-align: left; 
+  }
+
+  .partner {
+    color: #760B8A; 
+    text-decoration: underline;
+  }
+
+  .green-flags {
+    background-color: #00FF00; /* Light Green */
+    font-style: italic;
+    font-weight: bold;
+    color: black; 
+  }
+
+  .red-flags {
+    background-color: #FF0000; /* Light Red */
+    font-style: italic;
+    font-weight: bold;
+    color: black; 
+  }
+
+  .individual {
+    color: pink;
+  }
+
+  .not {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="banner turn-ons">
+      <div class="title green-flags">Green Flags</div>
+      <div class="description">I find myself attracted to an <span class="individual">individual</span> who is:</div>
+      <ul class="list">
+        <li class="list-item">Fun to be with</li>
+        <li class="list-item">Kind to me and to others</li>
+        <li class="list-item">Supportive to what decisions i make</li>
+        <li class="list-item">Trust Worthy</li>
+        <li class="list-item">Matured but can be silly</li>
+      </ul>
+    </div>
+
+    <div class="banner turn-offs">
+      <div class="title red-flags">Red Flags</div>
+      <div class="description">I find myself <span class="not">NOT</span> attracted to an <span class="individual">individual</span> who is:</div>
+      <ul class="list">
+        <li class="list-item">Always Complains about small things</li>
+        <li class="list-item">Manipulative and Gaslighting</li>
+        <li class="list-item">Always Lazy</li>
+        <li class="list-item">Always Negative</li>
+        <li class="list-item">Alcoholic and Smokes</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
